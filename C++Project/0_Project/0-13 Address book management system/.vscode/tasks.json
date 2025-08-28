@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "build-multi-files",
+			"command": "C:/msys64/ucrt64/bin/g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"D:\\Study\\Debug\\C++Project\\0_Project\\0-13 Address book management system\\execution\\menu.cpp",
+				"D:\\Study\\Debug\\C++Project\\0_Project\\0-13 Address book management system\\src\\main.cpp",
+				"D:\\Study\\Debug\\C++Project\\0_Project\\0-13 Address book management system\\execution\\AddressBook.cpp",
+				"-o",
+				"D:\\Study\\Debug\\C++Project\\0_Project\\0-13 Address book management system\\code_exe\\main.exe"
+			],
+			"options": {
+				"cwd": "C:/msys64/ucrt64/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: C:/msys64/ucrt64/bin/g++.exe"
+		}
+	]
+}
