@@ -1,6 +1,6 @@
 secret_number = 42
 
-number_of_guess = 0
+number_of_guess = 1
 
 # 玩家猜数字
 user_guess = int(input("Please enter your guess number: "))
