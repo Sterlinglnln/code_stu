@@ -37,8 +37,8 @@
 *.log
 *.stackdump
 
-# Visual Studio
-.vs/
+# Visual Studio Code
+.vscode/
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
