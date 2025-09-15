@@ -58,3 +58,4 @@ Thumbs.db        # Windows
 *.swp            # Vim 交换文件
 *.swo            # Vim 交换文件
 *~               # 临时文件
+.DS_Store       # macOS
