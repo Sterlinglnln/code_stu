@@ -13,7 +13,7 @@ public:
         if (s.empty()) return "";
 
         int start = 0, end = 0;
-        for (int i = 0; i < s.size(); ++i) {
+        for (size_t i = 0; i < s.size(); ++i) {
             // 处理奇数长度的回文串
             int len1 = expandAroundCenter(s, i, i);
             // 处理偶数长度的回文串
@@ -32,7 +32,7 @@ public:
 
 private:
     // 从中心向两边扩展，返回回文串的长度
-    int expandAroundCenter(const string& s, int left, int right) {
+    int expandAroundCenter(const string& s, size_t left, size_t right) {
         while (left >= 0 && right < s.size() && s[left] == s[right]) {
             --left;
             ++right;
