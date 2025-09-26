@@ -48,6 +48,7 @@
 *.opensdf
 *.ipch
 Debug/
+build/
 Release/
 x64/
 x86/
@@ -58,4 +59,4 @@ Thumbs.db
 *.swp            
 *.swo            
 *~               
-.DS_Store       
+.DS_Store    
