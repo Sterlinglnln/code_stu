@@ -1,13 +1,10 @@
 #include <iostream>
-#include <windows.h>
-#include "../include/menu.h"
-#include "../include/AddressBook.h"
+#include "AddressBook.h"
+#include "menu.h"
 
 using namespace std;
 
 int main() {
-    SetConsoleOutputCP(CP_UTF8); // 防止出现乱码
-
     struct AddressBook book; 
     initAddressBook(book);
     int select;

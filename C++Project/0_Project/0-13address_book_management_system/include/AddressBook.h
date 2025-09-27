@@ -42,4 +42,5 @@ bool updatePerson(AddressBook& book, const string& oldName, const Person& newCon
 // 清空通讯录
 void clearPerson(AddressBook& book);
 
-#endif   
+#endif
+   

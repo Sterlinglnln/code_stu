@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/AddressBook.h"
+#include "AddressBook.h"
 using namespace std;
 
 #define MAX 1000
@@ -119,4 +119,5 @@ void clearPerson(AddressBook& book) {
     cout << "通讯录已清空！" << endl;
     system("pause");
     system("cls");
-}    
+}
+    
