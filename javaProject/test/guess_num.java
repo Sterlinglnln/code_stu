@@ -24,5 +24,6 @@ public class guess_num {
         } else {
             System.out.println("很遗憾，您没有猜对。正确答案是：" + secretNumber);
         }
+        scanner.close();
     }
 }
