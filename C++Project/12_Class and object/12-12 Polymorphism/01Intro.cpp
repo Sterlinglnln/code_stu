@@ -1,5 +1,4 @@
 #include <iostream>
-#include <windows.h>
 using namespace std;
 
 class animal {
@@ -39,7 +38,6 @@ void test02() {
 }
 
 int main() {
-    SetConsoleOutputCP(CP_UTF8);
 
     test01();
     test02();
