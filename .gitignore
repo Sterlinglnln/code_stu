@@ -54,6 +54,12 @@ x64/
 x86/
 output/
 
+# pycharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
 # 系统生成文件
 Thumbs.db        
 *.swp            
